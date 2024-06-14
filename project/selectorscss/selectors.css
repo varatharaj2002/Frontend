@@ -1,0 +1,55 @@
+/* element selector */
+h1{
+    text-align: justify;
+    color: blue;
+    text-align: center;
+}
+
+/* class selector */
+.para{
+    color: blueviolet;
+}
+
+/* id selector */
+#para{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* select selctor */
+h2,#para,h3{
+    text-align: left;
+}
+
+/* universal selector */
+
+*{
+    background-color: rgb(97, 99, 218);
+}
+
+.link{
+    color: rgb(8, 13, 43);
+    text-shadow: 0ch;
+    
+}
+
+.here{
+    color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: initial;
+}
+
+.main-container{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 300px;
+    border-top-width: 5px;
+    border-top-color: blue;
+    border-top-style: double;
+}
+
+.padding{
+
+    padding: 10px; background-color: rgb(150, 50, 50);
+    color: aqua;
+}

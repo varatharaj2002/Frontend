@@ -1,0 +1,94 @@
+.main-con{
+    height: 600px;
+    width: 850px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    gap: 30px   
+}
+
+.con{
+    margin: auto;
+    display: flex;
+    gap: 30px;   
+}
+
+.section{
+    height: 450px;
+    width: 240px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(40,43,53);
+    border-radius: 5px;    
+}
+
+.profile-div{
+    height: 100px; 
+    width: 100px; 
+    /* border: 2px solid rgb(14, 12, 12);  */
+    margin: auto; 
+    margin-top: 20px;
+    border-radius: 50px;   
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    /* background-color: aqua  */
+}
+
+.main-text{
+    text-align: center;
+    color: rgb(234, 231, 238);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.big-text{
+    text-align: center;
+    color: rgb(240, 237, 243);
+}
+
+
+
+.social-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    border: none;
+    display: flex;
+    margin: auto;
+    background-color: rgba(213,52,160,255);
+    cursor: pointer;
+}
+
+.fa{
+    font-size: 15px;
+    color: rgb(221, 196, 196);
+    display: flex; 
+    margin: auto;
+}
+
+.icon{
+    /* heig;
+    width: ; */
+    display: flex;
+    gap: 1px;
+    /* margin-left: px; */
+    margin: auto;
+    border: none;
+}
+
+    
+/* footer button */
+.footer-button{
+   
+    height: 35px;
+    width: 180px;
+    margin-left: 30px;
+    color: rgba(91,161,174,255);
+    border: 3px solid rgba(91,161,174,255);
+    background-color: rgb(40,43,53);
+    cursor: pointer;
+}
