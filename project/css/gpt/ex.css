@@ -1,33 +1,27 @@
-/* Resetting default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Styling the header */
-  header {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-  }
-  
-  /* Styling the navigation */
-  nav ul {
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
-  nav ul li:last-child {
-    margin-right: 0;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
+/* styles.css */
+
+/* Reset default button styles */
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #3498db; /* Blue background color */
+  color: #ffffff; /* White text color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Drop shadow */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Active/focus effect */
+button:focus,
+button:active {
+  background-color: #2c3e50; /* Slightly darker when active */
+}
